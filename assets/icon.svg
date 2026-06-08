@@ -1,0 +1,37 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1C1C1E"/>
+      <stop offset="100%" style="stop-color:#000000"/>
+    </linearGradient>
+    <linearGradient id="ring1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="100%" style="stop-color:#FFA500"/>
+    </linearGradient>
+    <linearGradient id="ring2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#F0F0F0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Layer 1: Background -->
+  <rect width="1024" height="1024" rx="226" ry="226" fill="url(#bg)"/>
+
+  <!-- Layer 2: Outer ring (12 Earthly Branches) -->
+  <g transform="translate(512, 512)">
+    <circle r="380" fill="none" stroke="url(#ring1)" stroke-width="80" opacity="0.9" stroke-dasharray="98 4" stroke-dashoffset="2"/>
+  </g>
+
+  <!-- Layer 3: Inner ring (10 Heavenly Stems) -->
+  <g transform="translate(512, 512)">
+    <circle r="220" fill="none" stroke="url(#ring2)" stroke-width="60" opacity="0.95" stroke-dasharray="67 4" stroke-dashoffset="2"/>
+  </g>
+
+  <!-- Layer 4: Taiji -->
+  <g transform="translate(512, 512)">
+    <circle r="140" fill="#000000"/>
+    <path d="M 0 -140 A 70 70 0 0 1 0 0 A 70 70 0 0 0 0 140 A 140 140 0 0 1 0 -140" fill="#FFFFFF"/>
+    <circle cy="-70" r="24" fill="#000000"/>
+    <circle cy="70" r="24" fill="#FFFFFF"/>
+  </g>
+</svg>
