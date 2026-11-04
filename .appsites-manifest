@@ -1,0 +1,11 @@
+# Files owned by xiangyu-sun/appsites (apps/tiangandizhi). Do not edit.
+.github/ISSUE_TEMPLATE/bug_report.yml
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/feature_request.yml
+.github/workflows/stale.yml
+PRIVACY.md
+README.md
+assets/icon.svg
+index.html
+privacy.html
+style.css
